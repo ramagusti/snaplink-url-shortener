@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // For Vercel deployment with API routes
+  images: {
+    unoptimized: true
+  }
 }
 
 module.exports = nextConfig
