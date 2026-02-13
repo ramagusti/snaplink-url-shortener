@@ -76,7 +76,8 @@ export default function Analytics() {
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-slate-100">
       <Head>
         <title>Analytics - SnapLink</title>
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" type="image/png" href="/favicon.png?v=2" />
+        <link rel="shortcut icon" type="image/png" href="/favicon.png?v=2" />
       </Head>
 
       {/* Header */}

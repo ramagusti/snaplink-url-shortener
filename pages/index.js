@@ -67,8 +67,9 @@ export default function Home() {
       <Head>
         <title>SnapLink - Professional URL Shortener</title>
         <meta name="description" content="Shorten URLs and track analytics with SnapLink" />
-        <link rel="icon" href="/favicon.png" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" href="/favicon.png?v=2" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=2" />
+        <link rel="shortcut icon" type="image/png" href="/favicon.png?v=2" />
       </Head>
 
       {/* Header */}
