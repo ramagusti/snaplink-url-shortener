@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 
-const DATA_FILE = path.join(process.cwd(), 'data', 'urls.json');
+const DATA_FILE = path.join('/tmp', 'urls.json');
 
 function readData() {
   try {
