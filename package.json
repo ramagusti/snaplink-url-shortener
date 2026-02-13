@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@tailwindcss/postcss": "^4.1.18",
     "nanoid": "^5.0.0",
     "next": "^14.0.0",
     "react": "^18.0.0",
