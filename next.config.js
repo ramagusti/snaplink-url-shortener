@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  distDir: 'dist',
+  // For Vercel deployment with API routes
 }
 
 module.exports = nextConfig
